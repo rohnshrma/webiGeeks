@@ -1,0 +1,32 @@
+{
+  "name": "webigeeks",
+  "version": "1.0.0",
+  "description": " webigeeks official website.we deal with website and web application and also a leading brand in online education.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohnshrma/webiGeeks.git"
+  },
+  "keywords": [
+    "online",
+    "education",
+    "webdesign",
+    "webdevelopment"
+  ],
+  "author": "rohan sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohnshrma/webiGeeks/issues"
+  },
+  "homepage": "https://github.com/rohnshrma/webiGeeks#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.0"
+  }
+}
