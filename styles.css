@@ -133,9 +133,11 @@ p {
 
     #courses .row{
         flex-direction: column;
+        margin-bottom: 0;
     }
     #courses .row .course{
         width:100%;
+        margin-bottom: 1rem;
     }
     #courses .row .course .course-body .course-info-row{
         flex-direction: column;
