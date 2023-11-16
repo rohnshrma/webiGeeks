@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+.logo {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* reusable classes */
+.container {
+    padding: 4rem 8rem;
+    text-align: center;
+}
+
+.cta {
+    margin: 1rem 0;
+    padding: 10px 12px;
+    text-align: center;
+    background-color: #27AE60;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    font-family: arial;
+    width: 100%;
+}
+
+/* ================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================courses section================ */
+#courses {
+    background-color: #ECF0F1;
+}
+
+#courses .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+#courses .row:last-child {
+    margin-bottom: 0;
+}
+
+
+#courses .row .course {
+    overflow: hidden;
+    /* box-shadow: 0 0 2px 2px #ccc; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    border-radius: 10px;
+    background-color: #fff;
+    width: 30%;
+}
+
+#courses .row .course .course-header {
+    height: 200px;
+    border-bottom: 1px solid #ccc;
+}
+
+#courses .row .course .course-body {
+    padding: 1rem 2rem;
+}
+
+#courses .row .course .course-body .course-info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+#courses .row .course .course-body p {
+    text-align: justify;
+}
+
+#courses .row .course .course-header img {
+    width: 100%;
+    height: 100%;
+}
+/* ========================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:768px) {
+
+    .container{
+        padding: 1rem;
+    }
+
+
+    #courses .row{
+        flex-direction: column;
+    }
+    #courses .row .course{
+        width:100%;
+    }
+    #courses .row .course .course-body .course-info-row{
+        flex-direction: column;
+    }
+}
